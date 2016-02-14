@@ -5,7 +5,7 @@
 ### Term: Spring 2016
 ### Professor: David Meyer, Tim Rogers
 ### Software used: Free scale CodeWarrior IDE
-### Microcontroller used: HCS12-9S12
+### Microcontroller used: HCS12-9S12 16 bit architecture
 ### Language used: Assembly, C
 
 Welcome to my repository for ECE 362, where we learn how to work with a microcontroller taken at Purdue University. This course is amazing as we learn about how to write instructions on low level and see how actually our computers process data from basic to complex arithmetic. We used Assembly for first half to understand how instructions are parsed, while later half is in C.
@@ -16,7 +16,7 @@ This repository consists of following:
 * Code regarding to the class
 * Practice codes, whose refrence are taken from this book: [HCS12-9S12 book](http://www.amazon.com/The-HCS12-9S12-Introduction-Interfacing/dp/1435427424)
 
-###### Assembly codes are typed using Freescale CodeWarrior. To view the code please navigate the following way: 
+###### Assembly codes are typed using Freescale CodeWarrior. To view the code please navigate the following way:
 
 File Name >> Sources folder >> main.asm
 
