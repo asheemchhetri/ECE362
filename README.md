@@ -16,4 +16,8 @@ This repository consists of following:
 * Code regarding to the class
 * Practice codes, whose refrence are taken from this book: [HCS12-9S12 book](http://www.amazon.com/The-HCS12-9S12-Introduction-Interfacing/dp/1435427424)
 
+Structure:
+
+Assembly codes are typed using Freescale CodeWarrior. To view the code please navigate the following way >> File Name >> Sources folder >> main.asm
+
 >##### Note: For future ECE 362 students, please use my work as only refrence and not a substitute for your lab work, as it will only hurt your learning process.
