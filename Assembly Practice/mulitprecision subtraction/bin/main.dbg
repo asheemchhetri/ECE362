@@ -1,0 +1,14 @@
+;Write a program to subtract the hex number stored at $1004,$1007 from the hex number
+;stored at $1000,$1003 and save the difference at $1010,$1013.
+
+  org $800 ;starting address of the program
+  ldd $1002
+  subd $1006
+  std $1012
+  ldaa $1001
+  sbca $1005
+  staa $1011
+  ldaa $1000
+  sbca $1004
+  staa $1010
+  

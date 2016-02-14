@@ -1,0 +1,26 @@
+;Write a program to subtract 5 from four memory locations at $1000, $1001, $1002, and
+;$1003.
+
+  org $800
+value equ 5
+sub5 macro
+     ldaa \1
+     suba #value
+     staa \1
+     endm ;declares end of the macro
+     sub5 $1000
+     ldaa $1000
+     suba #value
+     staa $1000
+     sub5 $1001
+     ldaa $1001
+     suba #value
+     staa $1001
+     sub5 $1002
+     ldaa $1002
+     suba #value
+     staa $1002
+     sub5 $1003
+     ldaa $1003
+     suba #value
+     staa $1003
